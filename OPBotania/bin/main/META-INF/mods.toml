@@ -1,0 +1,29 @@
+modLoader="javafml" 
+loaderVersion="[40,)" 
+license="MIT"
+[[mods]]
+modId="op_botania" 
+version="${file.jarVersion}" 
+displayName="OPBotania"
+logoFile="examplemod.png" 
+credits="Huge thanks to Vazkii and his team for making Botania" 
+authors="Papacester"
+# The description text for the mod (multi line!) (#mandatory)
+description='''
+The creator of Botania is Vazkii, huge thanks to him and his team!
+Botania is my favorite mod, I would love for it to be more useful in larger modpacks that have higher tier armor and weapons.
+'''
+
+[[dependencies.OPBotania]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[40,)" 
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.OPBotania]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2,1.19)"
+    ordering="NONE"
+    side="BOTH"
